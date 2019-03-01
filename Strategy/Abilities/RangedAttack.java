@@ -7,7 +7,9 @@
  */
 
 
-package Strategy;
+package Abilities;
+
+import Monsters.Monster;
 
 public class RangedAttack implements Attack {
 
@@ -21,6 +23,6 @@ public class RangedAttack implements Attack {
     public Integer attack(Monster target) {
         String message = attacker + " uses a ranged attack on " + target;
         System.out.println(message);
-        return null;
+        return attacker.getAgi() - target.getAgi();
     }
 }

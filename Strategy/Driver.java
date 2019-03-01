@@ -1,10 +1,13 @@
-package Strategy;
 /**
  * Author: Mireya Leon
  * Title: Driver.java
  * Date: 2/27/19
  * Abstract: Driver class for testing
  */
+
+import Monsters.Imp;
+import Monsters.Kobold;
+import Monsters.Monster;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,5 +24,8 @@ public class Driver {
         for (Monster m : monsters) {
             System.out.println(m);
         }
+
+        System.out.println(monsters.get(0).attackTarget(monsters.get(1)));
+        System.out.println(monsters.get(1).attackTarget(monsters.get(0)));
     }
 }

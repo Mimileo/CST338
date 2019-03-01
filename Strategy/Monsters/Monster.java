@@ -1,4 +1,4 @@
-package Strategy;
+package Monsters;
 /**
  * Author: Mireya Leon
  * Title: Monster.java
@@ -7,14 +7,21 @@ package Strategy;
  */
 
 
-import java.util.Objects;
+import Abilities.Attack;
+
 import java.util.HashMap;
+import java.util.Objects;
+import java.util.Random;
 
 public abstract class Monster {
 
     private Integer hp;
-    private Integer xp;
-    private Integer maxHP;
+    private Integer xp = 10;
+    Integer agi = 5;
+    Integer def = 5;
+    Integer str = 5;
+    Attack attack;
+    private Integer maxHP = null;
     private HashMap<String, Integer> items;
 
     public Monster(Integer maxHP, Integer xp, HashMap<String, Integer> items) {
@@ -22,6 +29,10 @@ public abstract class Monster {
         hp = this.maxHP;
         this.xp = xp;
         this.items = items;
+    }
+
+    public Integer attackTarget(Monster m) {
+        return attack.attack(m);
     }
 
 
@@ -48,6 +59,34 @@ public abstract class Monster {
     public Integer getMaxHP() {
         return maxHP;
     }
+
+    public Integer getAgi() {
+        return agi;
+    }
+
+    public Integer getDef() {
+        return def;
+    }
+
+    public Integer getStr() {
+        return str;
+    }
+
+    Integer getAttribute(Integer min, Integer max){
+        Random rand = new Random();
+
+        if(min > max) {
+            Integer temp = min;
+            min = max;
+            max = temp;
+        }
+
+        // returns a random number between min and max inclusive
+        return rand.nextInt(max-min) + min;
+
+    }
+
+
 
     @Override
     public boolean equals(Object o) {

@@ -7,7 +7,7 @@
  */
 
 
-package Strategy;
+package Abilities;
 
 public interface Ability {
 }

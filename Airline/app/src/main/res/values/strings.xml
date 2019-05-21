@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Fly Away Airlines</string>
+    <string name="airlineName">Fly Away</string>
+
+    <string name="btn1">Create Account</string>
+    <string name="btn2">Reserve Seat</string>
+    <string name="btn3">Cancel Reservation</string>
+    <string name="btn4">Manage System</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="invalid">Invalid Login</string>
+
+    <string name="user">Invalid Login</string>
+    <string name="search_flight">Search Flights</string>
+    <string name="alert_dialog_ok">Search Flights</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel_dialog">Cancel</string>
+
+    <string name="depart_prompt">Choose a departure location</string>
+    <string name="arrival_prompt">Choose an arrival location</string>
+    <string name="search">Search Flights</string>
+    <string name="enterTickets">Enter number of tickets</string>
+    <string-array name="locations">
+        <item>Monterey</item>
+        <item>Los Angeles</item>
+        <item>Seattle</item>
+    </string-array>
+
+    <string name="flight_number">Flight Number</string>
+    <string name="add_flight">Add Flight</string>
+    <string name="cap">Capacity</string>
+    <string name="time">Time</string>
+    <string name="price">Price</string>
+    <string name="noflight">No flights to display</string>
+
+    <string name="flight">Enter a flight number</string>
+    <string name="bookFlight">Book</string>
+    <string name="cancel">Cancel</string>
+    <string name="Logout">Log Out</string>
+
+    <string name="disregard">Disregard</string>
+    <string name="reservation">Enter a reservation number</string>
+    <string name="back">Back</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

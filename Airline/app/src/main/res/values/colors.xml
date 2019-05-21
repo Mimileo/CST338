@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="myPrimary">#00b7a8</color>
+    <color name="my_color">#096386</color>
+    <color name="navcolor">#0099CC</color>
+    <color name="colorPrimaryPurple">#0099CC</color>
+
+    <color name="colorGradientStart">#517F95</color>
+    <color name="colorGradientCenter">#00DBDE</color>
+    <color name="colorGradientEnd">#933C94</color>
+    <color name="colorGrey">#5D696F</color>
+
+    <color name="mainColorBtn">#933C94</color>
+    <color name="customNav">#E2180341</color>
+
+
+
+    <color name="colorWhite">#FFFFFF</color>
+</resources>
